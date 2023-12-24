@@ -1,0 +1,448 @@
+/* CSS style for assignment 3 */
+/*by Divine Asuquo */
+body {
+  font-family: 'Lato', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25em; 
+  height: 0.5em;
+  margin-top: 0.5%;
+  
+}
+ .account{
+  display: inline-block;
+  background-color: white;
+  color: rgb(12, 12, 12);
+  padding: 0.3125em 0.625em;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: -3%;
+  width: 6em;
+  height: 2em;
+
+ }
+
+.logo img {
+  width: 85.5%; 
+  height: auto;
+  margin-right: 2%; 
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  color: #1D2C3C;
+  font-family: 'Lato' sans-serif;
+  font-size: 0.75em; 
+  width: 25.71%; 
+  height: 1.06em; 
+  font-weight: 700;
+}
+
+nav li {
+  margin-right: 5.25em; 
+}
+
+
+
+nav li b {
+  white-space: nowrap;
+}
+
+
+
+.separator {
+  height: 2px;
+  background-color: gray;
+  margin: 0 1.25em; 
+}
+
+
+.body-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5%;
+  width: 60%; 
+  height: 50em; 
+  background-color: white;
+  margin-left: 15%; 
+  margin-top: 4em; 
+  margin-bottom: 8em; 
+}
+
+.main-section {
+  border: 1px solid #ddd;
+  flex: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2.5em;
+  width: 63.71%; 
+  height: 47em; 
+  margin-top: -0.9em;
+  margin-right: -1em; 
+}
+
+
+
+.step2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.9375em; 
+  margin-top: 2em;
+  color: #1D2C3C;
+}
+
+.step1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.9375em; 
+  margin-top: 2.5em;
+  color: #1D2C3C;
+}
+.step-number {
+  background-color: white;
+  color: #548BC5;
+  border-radius: 50%;
+  width: 2.25em; 
+  height: 2.25em; 
+  display: flex;
+  border: 0.25em solid #1179bf;
+  border-color: #1179bf;
+  border-width: 0.15em;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.625em; 
+  font-weight: bold;
+  box-sizing: border-box;
+}
+.first-name-input {
+  border-radius: 5px;
+  border-style: hidden;
+}
+
+.last-name-input {
+  border-radius: 5px;
+  border-style: hidden;
+}
+
+#email {
+  margin-top: 0.9375em; 
+  margin-bottom: 2.5em; 
+  background-color: #EDEFF2;
+  width: 65.25%; 
+  height: 2.25em;
+  border-radius: 5px;
+  border-style: hidden;
+}
+
+
+.credit-card-fields,
+.green-button {
+  display: block;
+  margin-top: 0.9375em; 
+}
+
+#credit-card {
+  background-color: #EDEFF2;
+  width: 80.25%; /* Adjust as needed */
+  height: 2.1em; 
+  margin-top: 1em;
+  border-radius: 5px;
+  border-style: hidden;
+}
+.green-button {
+  background-color: #038e7d;
+  color: white;
+  padding: 0.625em;
+  margin-top: 3.5em; /* Adjust as needed */
+  width: 100%; /* Adjust as needed */
+  height: 3.2em;
+  font-size: large;
+  font-weight: bolder;
+  border-radius: 5px;
+  border-style: none;
+  
+}
+
+.grey-button {
+  pointer-events: none;
+  background-color: #DADADA;
+  color: white;
+  font-family: 'lato' sans-serif;
+  border-style: none;
+  padding: 0.3125em 0.625em;
+  margin-top: 0;
+  margin-left: 45.5%; /* Adjust as needed */
+  border-radius: 7px;
+}
+
+.side-section {
+  width: 25%;
+  height: 31.25em; /* Adjust as needed */
+}
+
+.blue-background {
+  background-color: #1179bf;
+  color: white;
+  padding: 1.25em;
+  height: 49.6875em; /* Adjust as needed */
+  width: 19.5em; /* Adjust as needed */
+  margin-top: -0.9375em; /* Adjust as needed */
+  margin-right: -1.25em; /* Adjust as needed */
+}
+
+.freelancer {
+  font-family: 'Lato' sans-serif;
+  font-weight: 700;
+  font-size: 1.30em;
+  color: #FFFFFF;
+}
+
+.price {
+  font-size: 2em; /* Adjust as needed */
+  font-weight: bold;
+}
+ul {
+  list-style: none;
+  padding:0;
+  }
+
+  .checkmark-container {
+    display:flex;
+    align-items: center;
+    margin-left: 2.1em;
+    
+  }
+  .checkmark {
+    
+    width: 1.4em;
+    height: 1.4em;
+    margin-left: 0.7125em; /* Adjust as needed */
+    margin-right: 0.43em;
+    background-color: #1179bf;
+    color: #DADADA;
+    border-radius: 50%;
+    display: flex;
+    border: 0.25em #DADADA;
+    border-style: solid;
+    border-width: 0.15em;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    
+  }
+
+  .entireCheck {
+    margin-top: 2em;
+    margin-bottom:-3em;
+  }
+  
+.switch-plan {
+  color: white;
+  margin-left: 2.1em;
+  margin-bottom: -4em;
+  margin-top: 500em;
+
+}
+
+.switch-plan,
+.ftp{
+  position: relative;
+}
+
+.switch-plan::after {
+  content: '';
+  position: absolute;
+  left:0;
+  top: 5em;
+  bottom: -5.9em;
+  width: 14em;
+  height: 2px;
+  background-color: #FFFFFF;
+   
+}
+.blue-background ul {
+  list-style: none;
+  padding: 0;
+  margin: 1.25em 0; 
+}
+
+.blue-background li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.625em; 
+}
+
+.blue-background li .checkmark {
+  margin-left: 0.625em; 
+}
+
+.footer-text {
+  margin-top: 1.875em; 
+  color: grey;
+  margin-left: 50.5%; 
+  margin-top: 15%;
+}
+
+.terms-link {
+  color: #31708F;
+  text-decoration: none;
+}
+
+.name-container {
+  margin-bottom: 0.9375em;
+  font-family: 'Lato';
+  color: #1D2C3C;
+
+}
+
+.name-field label {
+  display: inline-block;
+  margin-right: 0.9375em; 
+}
+
+.name-container label,
+.name-container input {
+  display: block;
+  margin-bottom: 0.9125em; 
+}
+
+label {
+  font-size: 1em;
+  color: #1D2C3C;
+}
+
+.first-name-input,
+.last-name-input {
+  width: 90.2857%; 
+  height: 2.5625em; 
+  background-color: #EDEFF2;
+}
+
+
+p.help-text {
+  font-size: 1em; 
+  margin-left: 30.75%; 
+  margin-top: 3%;
+  }
+
+h1 {
+  font-size: 1.875em; 
+  margin-top: 1.3125em; 
+  margin-bottom: 1.125em; 
+  margin-left: 0.5em;
+  color: #1D2C3C;
+  font-family: 'Lato';
+  font-weight: 300; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  ;
+}
+
+.ftp {
+  width: 14.210em;
+  height: 6em;
+  font-family: 'Lato' sans-serif;
+  font-size: 1.125em; 
+  font-style: italic;
+  margin-top: 7.225em; 
+  font-weight: 400;
+  margin-left: 2.1em;
+}
+
+.freelancer{
+  margin-left: 2.1em;
+}
+.clientSites {
+  font-size: 0.9375em;
+  margin-top: 5.25em;
+  margin-bottom: -4em;
+}
+
+.price-container {
+  font-family: 'Lato';
+  font-weight: 300;
+  display: inline-block;
+  font-size: 1em;
+  margin-top: -0.7em;
+ margin-left: -0.9em;
+}
+
+.currency {
+  font-size: 1.5em; 
+  vertical-align: top;
+  margin-left: 2.1em;
+  font-weight: 700;
+}
+
+.large-number {
+  font-size: 3.75em; 
+}
+
+.per {
+  font-size: 1.5em; 
+  vertical-align: bottom;
+  margin-left: -0.125em; 
+}
+.year {
+  font-size: 1em; 
+  vertical-align: bottom;
+  margin-left: -0.125em; 
+  font-family: 'Roboto' sans-serif;
+}
+
+ .Renews{
+  margin-left: 2.1em;
+ }
+
+ .clientSites{
+  margin-left: 2.1em;
+  margin-top: 6em;
+  margin-bottom: -4em;
+ }
+.line-divider {
+  border-top: 1px solid #ccc;
+  margin: 1.25em;
+  width:110%;
+  margin-left: -2.5em;
+   
+}
+
+.line-divider2 {
+  border-top: 1px solid #ccc;
+  margin: 1.25em;
+  margin-bottom: 2.5em;
+  margin-top: 0.7em;
+  width:110%;
+  height: 10%;
+  margin-left: -2.5em;   
+}
+
+.line-divider3 {
+  border-top: 1px solid #ccc;
+  margin: 1.25em;
+  width: 110%;
+  height: 10%;
+  margin-left: -2.5em;
+  margin-top: 3.5em;
+}
+
+.checkout {
+  margin-top: -0.5em;
+}
+
+.image {
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 2.1em;
+}
+
+.beard {
+  margin-left: 5.1em;
+  margin-top: -3em;
+}
